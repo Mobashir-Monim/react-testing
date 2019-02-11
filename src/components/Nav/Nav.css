@@ -1,0 +1,53 @@
+.nav-band {
+    width: 20vw;
+    float: left;
+    height: 10vh;
+    background-color: #080c0d;
+}
+
+.nav-items {
+    width: 80vw;
+    float: left;
+    height: 10vh;
+    background-color: #080c0d;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.nav-list-item {
+    float: left;
+}
+
+.nav-list-item-link {
+    display: block;
+    color: #333;;
+    text-align: center;
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    font-weight: 10;
+    font-size: 0.7em;
+    color: white;
+    text-decoration: none !important;
+}
+
+.nav-list-item-link:hover:not(.active) {
+    color: white;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.nav-items-container {
+    margin-left: 50vw;
+}
